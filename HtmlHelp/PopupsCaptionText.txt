@@ -1,0 +1,44 @@
+.topic HIDC_NAME
+The unique name of the caption. You can only change the name when you create a new item.
+
+.topic HIDC_ENABLE
+Is it enabled?
+
+.topic HIDC_CAPTION
+Give the text to put on the image. This text can be time or date related by using the right tags. Press F1 for details.
+
+.topic HIDC_SHADOW
+When the text is drawn transparently, Full will put a one pixel shadow around the text, Drop will put a simple pixel shadow under the text.
+
+.topic HIDC_TRANSPARENT
+If this is checked then the text caption is put on the image transparently, otherwise the text is drawn in a box.
+
+.topic HIDC_CAP_LANG
+Select the languages the time/date related tags must be in.
+
+.topic HIDC_POSITION
+Specify the position of the text
+
+.topic HIDC_BACK_COLOR
+Select the background color of the text.
+
+.topic HIDC_FORE_COLOR
+Select the foreground color of the text.
+
+.topic HIDC_FONT
+Select the font of the text.
+
+.topic HIDC_FILE
+Read the first line of this text file. So you can generate a text file from another application with dynamic information (like weather info) and put it on the image.
+
+.topic HIDC_BROWSE
+Browse for the text file
+
+.topic HIDC_LENGTH
+Specify the maximum number of characters of the caption (0=no limit).
+
+.topic HIDOK
+Closes the dialog and saves any changes you have made.
+
+.topic HIDCANCEL
+Closes the dialog without saving any changes you have made.

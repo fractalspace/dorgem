@@ -1,0 +1,23 @@
+.topic HIDC_RELATIVE
+Use for easy positioning of the caption.
+
+.topic HIDC_ABSOLUTE
+Specify the position of this caption in absolute pixels. The co-ordinate 0,0 is top-left.
+
+.topic HIDC_POS_HOR_REL
+The horizontal position
+
+.topic HIDC_POS_VER_REL
+The vertical position
+
+.topic HIDC_POS_HOR_ABS
+The horizontal position
+
+.topic HIDC_POS_VER_ABS
+The vertical position
+
+.topic HIDOK
+Closes the dialog and saves any changes you have made.
+
+.topic HIDCANCEL
+Closes the dialog without saving any changes you have made.

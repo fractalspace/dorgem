@@ -1,0 +1,14 @@
+.topic HIDC_USE_AVI
+Do you want all captured images to be stored in a uncompressed AVI file?
+
+.topic HIDC_FILE
+The filename for the AVI archive. It can have the same tags as the text captions, so the filename can be date and time related. Remember that a '/' and ':' are invalid characters in a filename. The time stamp is constructed when the file is created.
+
+.topic HIDC_BROWSE
+Browse for the file
+
+.topic HIDC_FPS
+The number of frames per second in the AVI. This is not related to the frames per seconds of the preview window.
+
+.topic HIDC_CHANGE
+Do you want a new file AVI file at midnight. If you do use this options, it is advised to use time related tags in the filename.

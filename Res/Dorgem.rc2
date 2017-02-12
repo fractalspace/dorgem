@@ -1,0 +1,70 @@
+//
+// Dorgem.rc2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+  #error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+////////////////////////////////////////////////////////////////////////
+// Version
+//
+
+#include "Version.h"
+
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION     PRODUCT_VERSION_NUM
+    PRODUCTVERSION  PRODUCT_VERSION_NUM
+    FILEFLAGSMASK   0x3fL
+#ifdef _DEBUG
+    FILEFLAGS       0x1L
+#else
+    FILEFLAGS       0x0L
+#endif
+    FILEOS          0x4L
+    FILETYPE        0x1L
+    FILESUBTYPE     0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName",       COMPANY_NAME
+            VALUE "FileDescription",   PRODUCT_NAME
+            VALUE "FileVersion",       PRODUCT_VERSION_STR
+            VALUE "InternalName",      PRODUCT_NAME
+            VALUE "LegalCopyright",    COPYRIGHT_STR
+            VALUE "LegalTrademarks",   "Dorgem is a Trademark\0"
+            VALUE "OriginalFilename",  "Dorgem.exe\0"
+            VALUE "ProductName",       PRODUCT_NAME
+            VALUE "ProductVersion",    PRODUCT_VERSION_STR
+#ifdef _DEBUG
+            VALUE "PrivateBuild",      "This is a DEBUG build, not intented for public use. Please contact Frank Fesevur for a release build of this software.\0"
+#endif
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+////////////////////////////////////////////////////////////////////////
+// Version-strings to use in program
+
+STRINGTABLE DISCARDABLE
+BEGIN
+    IDS_PRODUCT_NAME        PRODUCT_NAME
+    IDS_PRODUCT_VERSION     PRODUCT_VERSION_STR
+    IDS_PRODUCT_COPYRIGHT   COPYRIGHT_STR
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// XP Theme Manifest
+//
+
+1   24    DISCARDABLE   "Res\\Dorgem.manifest"

@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>HTTP Storage</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+  <param name="Keyword" value="Store settings">
+  <param name="Keyword" value="WebDAV">
+  <param name="Keyword" value="Web Folders">
+</object>
+
+<h2>HTTP Storage</h2>
+
+HTTP storage is also known as WebDAV or Web Folders
+<p>
+
+<b>Name</b><br>
+The unique name of this storage event. You can only change the name when you create a new item.
+<p>
+<b>Enable</b><br>
+Is this event enabled?
+<p>
+<b>Interval X seconds/minutes/hours</b><br>
+The time interval between between captures.
+<p>
+<b>Secure</b><br>
+Use the secure HTTP protocol (HTTPS), in stead of the standard HTTP protocol.
+<p>
+<b>Host</b><br>
+This is the internet address of your HTTP server.
+<p>
+<b>Username</b><br>
+The username to use when logging on to the HTTP server.
+<p>
+<b>Password</b><br>
+The password to use when logging on to the HTTP server. The password is stored in the registry, with a relatively simple encryption mechanism. <i>There is a potential security risk.</i> If someone has access to your registry and they could break the encryption, this will give them access to your account.
+<p>
+<b>File</b><br>
+This is the filename that you wish to store on the server. You may need to include a directory in the filename. It can have the same <a href="Caption.htm">tags</a> as the text captions, so the filename can be date and time related. Remember that a '/' and ':' are invalid characters in a filename, therefore %G and %g are available. The time stamp is constructed when the file is uploaded to the server.
+<p>
+<b>Use RAS</b><br>
+Do you want to check for an active RAS connection (Remote Access Service, also known as Dial-up connections) before the upload is attempted.
+<p>
+<b>Connection</b><br>
+Specify the RAS connection to look for.
+<p>
+<b>Reset time when not stored</b><br>
+Reset the timer when there has been no storage. This is most likely to happen when there has been no motion detected or there has been no RAS connection.
+<p>
+<b>Custom captions</b><br>
+When you want to use custom captions for this store event, you need to check this option and create or adjust the custom captions with the Settings button.
+
+<p>&nbsp;</p>
+
+</body>
+</html>

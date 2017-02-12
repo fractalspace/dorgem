@@ -1,0 +1,17 @@
+.topic HIDC_SERVER_TYPE
+What type of web server do you want. No server, still images or streaming?
+
+.topic HIDC_PORT
+The port the web server must listen at.
+
+.topic HIDC_REFRESH
+The web server can request that the client refresh the image after X seconds. Not all clients will honor this request. To disable it set it to 0.
+
+.topic HIDC_LOG_FILE
+The filename of the access log. It can have the same tags as the text captions, so the filename can be date and time related. Remember that a '/' and ':' are invalid characters in a filename.
+
+.topic HIDC_CAP_CUST
+Use custom captions for the web server
+
+.topic HIDC_CAPTION_SETTINGS
+Create or adjust the custom captions

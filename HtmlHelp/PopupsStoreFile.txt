@@ -1,0 +1,35 @@
+.topic HIDC_NAME
+The unique name of this storage event. You can only change the name when you create a new item.
+
+.topic HIDC_ENABLE
+Is it enabled?
+
+.topic HIDC_INTERVAL
+The time interval between between captures.
+
+.topic HIDC_INTERVAL_TYPE
+The time interval between between captures.
+
+.topic HIDC_FILE
+The filename of the .JPG image to store. This can be a local filename or a UNC (\\server\path) filename. It can have the same tags as the text captions, so the filename can be date and time related. Remember that a '/' and ':' are invalid characters in a filename. The time stamp is constructed when the file is created.
+
+.topic HIDC_BROWSE
+Browse for the file
+
+.topic HIDC_RESET_TIME
+Reset the timer when there has been no storage. This is most likely to happen when there has been no motion detected.
+
+.topic HIDC_CREATE_DIRS
+Create the directories in the path before the file is stored.
+
+.topic HIDC_CAP_CUST
+Use custom captions for this store event
+
+.topic HIDC_CAPTION_SETTINGS
+Create or adjust the custom captions
+
+.topic HIDOK
+Closes the dialog and saves any changes you have made.
+
+.topic HIDCANCEL
+Closes the dialog without saving any changes you have made.

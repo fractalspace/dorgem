@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<title>How to help develop Dorgem</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+  <param name="Keyword" value="Development">
+</object>
+
+<p>
+<h1>How to help develop Dorgem</h1>
+<p>
+If you want to help develop Dorgem there are various thing you can do:
+<p>
+<b>Test the current version and report bugs you find</b><br>
+This is easy for everyone! If you find a bug, you can send it to <a href="Contact.htm">me directly</a> or enter them at the project space at <a href="http://sourceforge.net/projects/dorgem" target="_blank">SourceForge</a>. Please report a bug as precisely as possible. If I can't reproduce it, I can fix it!
+<p>
+<b>Suggest new features</b><br>
+New suggestions are always welcome, but please look at the <a href="ToDo.htm">To Do list</a> first to see if they are not already on the list. You can send them to <a href="Contact.htm">me directly</a> or enter them at the project space at <a href="http://sourceforge.net/projects/dorgem" target="_blank">SourceForge</a>.
+<p>
+<i>Note:</i> When you use SourceForge, please log in or leave an email address, so I can contact you.
+<p>
+<b>Help coding new features</b><br>
+If you want to help coding you need to be familiar with MFC and have access to Visual C++&nbsp;6, since that is my development platform.
+<p>
+One of the reasons I put Dorgem up on SourceForge was so other developers could get involved. If you are seriously interested, first of all that a look at the code, try to build it and consider what you can add. After that please contact me to discuss what you want to do. This is to prevent two people develop the same thing, which is a waste of time for one of them.
+<p>
+Then grab a copy of the most recent sources from <a href="http://sourceforge.net/cvs/?group_id=31240" target="_blank">anonymous CVS</a>, write your code, create a patch and send it to me. I'll merge it into the main codebase. If you never have used CVS before, take a look at <a href="http://www.tortoisecvs.org" target="_blank">TortoiseCVS</a>. It integrates CVS with the Windows Explorer seamless.
+<p>
+If you do decide to join in, please follow these simple guidelines, which will ultimately make all our lives easier:
+<ul>
+  <li><b>Do not</b> make trivial changes to existing code, such as deleting blanks, consolidating multi-line comments into single line comments, etc. This just adds a bunch of needless differences to the code. Besides, if every developer massaged the code to fit his/her style, it would be a never-ending struggle.
+  <li>Please try to match existing coding style as much as possible.
+  <li>Don't use tabs but spaces, since everybody has different tab size. I use a tab size of 2.
+  <li>Please make sure to comment your work so we can all understand what you've done (even though I didn't consistently ;-)
+  <li>Always use single line comment (//) to place real comment.
+  <li>Please don't make changes that don't relate to the task at hand. If you come across other issues while handling a task, please submit them as bugs.
+  <li>Please don't make changes that aren't on the to-do list or bug list. If everyone just threw in everything they wanted, the product would become a hodge-podge.
+  <li>You have the <a href="http://msdn.microsoft.com/library/en-us/htmlhelp/html/hwMicrosoftHTMLHelpDownloads.asp" target="_blank">HTML Help Workshop</a> installed in <code>C:\Program Files\HTML Help Workshop</code>. This because the full paths are stored in the VC project and MakeHelp.bat.
+</ul>
+<p>
+My general plan is to start people with anonymous CVS access and I commit their changes to the CVS repository myself. Those developers that continue to contribute will be considered for read-write CVS access.
+<p>
+Please note that in some source files special #define lines are used to (optionally) exclude certain parts of the code. These #define lines only affect the debug build. If you don't need, comment them out.
+<p>
+<b>CVSROOT for anonymous access to the CVS</b><br>
+<code>:pserver:anonymous@cvs.sourceforge.net:/cvsroot/dorgem</code>
+
+<p>&nbsp;</p>
+
+</body>
+</html>

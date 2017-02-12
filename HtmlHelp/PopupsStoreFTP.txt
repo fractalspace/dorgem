@@ -1,0 +1,53 @@
+.topic HIDC_NAME
+The unique name of this storage event. You can only change the name when you create a new item.
+
+.topic HIDC_ENABLE
+Is it enabled?
+
+.topic HIDC_INTERVAL
+The time interval between between captures.
+
+.topic HIDC_INTERVAL_TYPE
+The time interval between between captures.
+
+.topic HIDC_RESET_TIME
+Reset the timer when there has been no storage. This is most likely to happen when there has been no motion detected or there has been no RAS connection.
+
+.topic HIDC_HOST
+This is the internet address of your FTP server.
+
+.topic HIDC_PORT
+This is IP port to connect to on your FTP server.
+
+.topic HIDC_USER
+The username to use when logging on to the FTP server.
+
+.topic HIDC_PASSWORD
+The password to use when logging on to the FTP server. The password is stored in the registry, with a relatively simple encryption mechanism. There is a potential security risk. If someone has access to your registry and they could break the encryption, thus giving them access to your ftp account.
+
+.topic HIDC_FILE
+This is the filename that you wish to store on the server. You may need to include a directory in the filename. It can have the same tags as the text captions, so the filename can be date and time related. Remember that a '/' and ':' are invalid characters in a filename. The time stamp is constructed when the file is uploaded to the server.
+
+.topic HIDC_KEEP_OPEN
+Set this option to keep the FTP connection opened between the stores.
+
+.topic HIDC_USE_RAS
+Do you want to check for an active RAS connection (Remote Access Service, also known as Dial-up connections) before the upload is attempted.
+
+.topic HIDC_PASSIVE_FTP
+Use FTP in active or passive mode.
+
+.topic HIDC_RAS_CONN
+Specify the RAS connection to look for.
+
+.topic HIDC_CAP_CUST
+Use custom captions for this store event
+
+.topic HIDC_CAPTION_SETTINGS
+Create or adjust the custom captions
+
+.topic HIDOK
+Closes the dialog and saves any changes you have made.
+
+.topic HIDCANCEL
+Closes the dialog without saving any changes you have made.

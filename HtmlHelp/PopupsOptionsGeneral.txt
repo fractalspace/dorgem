@@ -1,0 +1,14 @@
+.topic HIDC_TRAY_ICON
+Do you want the program to minimize to the system tray (next to the clock) or on the taskbar?
+
+.topic HIDC_MOTION_DETECTION
+Do you want to use motion detection.
+
+.topic HIDC_RECONNECT
+This will reconnect the camera/device when no motion has been detected for X minutes.
+
+.topic HIDC_RECONNECT_TIME
+This will reconnect the camera/device when no motion has been detected for X minutes.
+
+.topic HIDC_SHOW_MSGBOX
+Show error message boxes when something goes wrong when processing a captured image.

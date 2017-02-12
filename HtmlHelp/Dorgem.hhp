@@ -1,0 +1,47 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=Dorgem.chm
+Contents file=Dorgem.hhc
+Default topic=Html\Start.htm
+Display compile progress=No
+Error log file=Dorgem.log
+Full-text search=Yes
+Index file=Dorgem.hhk
+Language=0x409 Engels (Verenigde Staten)
+Title=Dorgem
+
+[FILES]
+Html\Start.htm
+
+[MAP]
+#include ..\Resource.h
+
+[ALIAS]
+IDD_OPTIONS_GENERAL=Html\OptionsGeneral.htm
+IDD_OPTIONS_AVI=Html\OptionsAVI.htm
+IDD_OPTIONS_WEB_SERVER=Html\OptionsWebServer.htm
+IDD_OPTIONS_WEB_SERVER=Html\Start.htm
+IDD_CAPTION_BMP=Html\CaptionBitmap.htm
+IDD_CAPTION_TXT=Html\CaptionText.htm
+IDD_CAPTION_POS=Html\CaptionPos.htm
+IDD_STORE_FTP=Html\StoreFTP.htm
+IDD_STORE_HTTP=Html\StoreHTTP.htm
+IDD_STORE_FILE=Html\StoreFile.htm
+IDD_STORE_PROGRAM=Html\StoreProgram.htm
+
+[TEXT POPUPS]
+Popups.h
+PopupsCaptionBitmap.txt
+PopupsCaptionText.txt
+PopupsCaptionPos.txt
+PopupsOptionsAVI.txt
+PopupsOptionsGeneral.txt
+PopupsOptionsWebServer.txt
+PopupsStoreFile.txt
+PopupsStoreFTP.txt
+PopupsStoreHTTP.txt
+PopupsStoreProgram.txt
+
+[INFOTYPES]
+

@@ -1,0 +1,81 @@
+BODY {
+  font: 10pt "Verdana";
+  color: #0000cc;
+  background-color: #ffffff;
+  margin-left: 20;
+  margin-right: 20;
+}
+
+TABLE, TD {
+  font: 10pt "Verdana";
+  color: #0000cc;
+  background-color: #ffffff;
+  margin-left: 0;
+  margin-right: 0;
+  vertical-align: top;
+}
+
+TH {
+  font: 10pt "Verdana";
+  font-weight: bold;
+  color: #0000cc;
+  background-color: #ffffff;
+  margin-left: 0;
+  margin-right: 0;
+  vertical-align: top;
+}
+
+H1 {
+  font: 18pt "Verdana";
+  font-weight: bold;
+  color: #cc0000;
+  margin-right: 0;
+}
+
+H2 {
+  font: 14pt "Verdana";
+  font-weight: bold;
+  color: #cc0000;
+  margin-right: 0;
+}
+
+H3 {
+  font: 12pt "Verdana";
+  font-weight: bold;
+  color: #cc0000;
+  margin-right: 0;
+}
+
+SMALL {
+  font: 8pt "Verdana";
+  margin-right: 0;
+}
+
+STRONG {
+  text-decoration: none;
+  font-weight: bold;
+  color: #cc0000;
+}
+
+EM {
+  font: 7pt "Verdana";
+  margin-right: 0;
+  font-style: italic;
+}
+
+A:link, A:visited {
+  text-decoration: none;
+  color: #cc0000;
+}
+
+A:active {
+  text-decoration: none;
+}
+
+A:hover {
+  text-decoration: underline;
+}
+
+UL {
+  list-style-type: disc;
+}

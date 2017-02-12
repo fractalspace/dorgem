@@ -1,0 +1,192 @@
+<html>
+<head>
+<title>Version History</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+  <param name="Keyword" value="Version History">
+</object>
+
+<h2>Version History</h2>
+
+<b><big>Version 2.1.0</big> <small>(24-May-2005)</small></b>
+<p>
+
+Major new features:
+
+<ul>
+  <li>Included Chris Bandy's contribution, the <a href="StoreHTTP.htm">HTTP Store Event</a> (feature request #672983).
+  <li>Optional captions per storage event and seperate captions for the web server. This allows you to specify custom captions for every store event and seperate captions for the web server.
+  <li>Moved away from the WinINet based FTP and use my own.
+</ul>
+
+Other new (or improved) features:
+
+<ul>
+  <li>Implemented RFE #1060982 "status-bar at the bottom". Now all storage events show the status of the last store in the status bar.
+  <li>Added a shortcut to the help file to the start menu.
+  <li>Made a user interface for the Transparent color of the overlay bitmap caption.
+  <li>Implemented RFE #837200 "Passive/Active FTP". Thanks to Steve Thom for testing it.
+  <li>Added a status bar to the main dialog. This shows useful information on what the program is busy with. Thanks to John Boers a.k.a. DigiDodo for this suggestion.
+  <li>Implemented RFE #791330 "Button to switch capture on or off". This only affects the automatic captures and not the 'Capture now' button.
+  <li>Implemented RFE #775380 "FTP Storage for Non-Standard Ports". This was already possible in the registry, now added a textbox to the UI.
+  <li>Included contribution of Aaron Kondziela, storing the file on the FTP server on a temporary name and rename it after uploading.
+  <li>Implemented RFE #663750 "Retain FTP connection".
+  <li>Implemented RFE #700475 "Logfile". This option is only configurable in registry <code>LogFile</code> and <code>LogLevel</code> (0=Only Errors, 3=Normal)
+  <li>By default the OK button is disabled in the 'Add Caption' and 'Add Store Event' dialog.
+  <li>Implemented the optional creation of directories for the <a href="StoreFile.htm">File Store Event</a>. Especially useful if the filespec contains directory-names with tags (e.g. "C:\Camera\%G\%g.jpg").
+  <li>Start minimized, when /m is specified on the <a href="CommandLine.htm">command line</a>, as suggested in #659454. Thanks to Brooks Younce for his contribution.
+  <li>Dorgem has a new icon. Thanks to Andrew Keyser for his contribution.
+  <li>The <a href="StoreProgram.htm">External Program Store Event</a> now also can use the <a href="Caption.htm">time related tags</a> in the command.
+  <li>Improvements to the 'Check Version' button in the About dialog. Now beta versions can be detected as 'new version' and can detect the release of the final version.
+</ul>
+
+Bugs fixed:
+
+<ul>
+  <li>Fixed bug #1191508 "cvs 2.1.0b6 bug", temporary files not always cleaned up.
+  <li>Fixed bug #1104910 "error dialogues". Added an checkbox "Show Message Boxes" to the <a href="OptionsGeneral.htm">Options</a>.
+  <li>When Dorgem or the preview window is moved to a secondary monitor, the position was not properly restored.
+  <li>Fixed bug #954886 "Preview Window Clipped Incorrectly in 640"
+  <li>Fixed bug #905024 "Captions problems?".
+  <li>Fixed bug #855699 "Bitmap captions turn to text captions".
+  <li>The preview window was always updated even when is was not shown. This causes bandwidth problems of the USB bus with some USB webcams when using multiple cameras. Thanks to Greg Ordy for spotting this problem.
+  <li>Fixed bug #777333 "Log file not saved to fixed directory". When no full path is given, logs are stored in the directory where Dorgem.exe is located.
+  <li>When no capture device was available on the system, the buttons were not properly disabled.
+  <li>When a storage event was removed, the Up and Down buttons were not always properly updated.
+  <li>Fixed bug #723787 "Problems with 2 webcams". The temporary file was not always unique.
+</ul>
+
+<b><big>Version 2.1.0 beta 5</big> <small>(13-May-2004)</small></b>
+<p>
+
+<b><big>Version 2.1.0 beta 4</big> <small>(29-Jan-2004)</small></b>
+<p>
+
+<b><big>Version 2.1.0 beta 3</big> <small>(05-Sep-2003)</small></b>
+<p>
+This is the first public beta release of version 2.1.0. Beta 1 and 2 were send to a small group of people who reported bugs, suggested or implemented new features.
+<p>
+
+<b><big>Version 2.0.0</big> <small>(02-Jan-2003)</small></b>
+<p>
+Major new features:
+
+<ul>
+  <li><a href="OptionsWebServer.htm">Web Server</a> for still images
+  <li>Added <a href="StoreProgram.htm">External Program Store Event</a>. Can be useful for SSH, SCP or SFTP upload (feature request #629434), or when you use a script to generate an accompanying web page.
+</ul>
+
+Other new (or improved) features:
+
+<ul>
+  <li>The filenames for <a href="StoreFile.htm">File</a> and <a href="StoreFTP.htm">FTP</a> storage can be time related.
+  <li>Added %G <a href="Caption.htm">caption format</a>. It displays the date in filename safe yyyymmdd format
+  <li>Added %g <a href="Caption.htm">caption format</a>. It displays the time in filename safe hhmmss format
+  <li>Added %z <a href="Caption.htm">caption format</a>. It displays the difference between the current time and UTC.
+  <li>The <a href="CaptionText.htm">Text Caption</a> has two types of shadow
+  <li>The <a href="CaptionText.htm">Text Caption</a> can be read the first line of a text file. So you can generate a text file from another application with dynamic information (like weather info) and put it on the image.
+  <li>The length of the <a href="CaptionText.htm">Text Caption</a> can be limited (suggested in bug report #655134)
+  <li>It is also possible to specify the interval in minutes and hours for all storage events
+  <li>Both caption types have a new (sub)dialog to handle the <a href="CaptionPos.htm">position</a>. Therefore now it is possible to configure the absolute position without editing in the registry.
+  <li>Deleted the text caption tag '%W'. See the <a href="FAQ.htm#winamp">FAQ</a> how this can be handled now (and much more flexible).
+</ul>
+
+Bugs fixed:
+
+<ul>
+  <li>When you add a new event, the star is now properly updated.
+  <li>The ordering of the events could get corrupted.
+  <li>In the file storage event, when you press '...', the dialog would return to its original state (Bug #642846)
+</ul>
+
+<b><big>Version 1.2.0</big> <small>(19-Nov-2002)</small></b>
+<p>
+New (or improved) features:
+
+<ul>
+  <li>Support for <a href="MultipleCameras.htm">multiple cameras</a>
+  <li>New text caption tag '%W'. It shows the current song playing in Winamp 2.x
+  <li>Allow only one instance to run (per camera)
+  <li>Abilty to reconnect the camera/device when no motion has been detected for X minutes. Thanks to Mike Ryan for providing this solution as a workaround to solve problems with bogus camera drivers.
+  <li>Also added the 'Reset time when not stored' to the file storage. This to prevent too intensive checking if there was no storage because of the motion detection.
+  <li>Better help file and help integration
+</ul>
+
+Bugs fixed:
+
+<ul>
+  <li>When you added a new caption or a FTP storage, you would get the useless error message 'String too short' (Bug #629439).
+</ul>
+
+<b><big>Version 1.1.0</big> <small>(26-Sep-2002)</small></b>
+<p>
+New (or improved) features:
+
+<ul>
+  <li><a href="MotionDetection.htm">Motion detection</a>
+  <li>Made Options dialog: Made AVI settings configurable. The filename can have the same settings as the text captions, so the filename can be date and time related. Remember that a '/' and ':' are invalid characters in a filename.
+  <li>Changed the name of the 'Close' button of the main window to 'Exit'.
+</ul>
+
+Bugs fixed:
+
+<ul>
+  <li>When the type of an event was missing or corrupted in the registry, Dorgem would come in an infinite loop. Thanks to Paul Mutton for spotting this problem.
+  <li>The buttons in the Store Events are now properly enabled when the dialog is created.
+  <li>The setup executable didn't remove the entries from the registry when the program was uninstalled.
+  <li>When the capture device could not be found, the config buttons of that device where not disabled. This could result the program to crash.
+</ul>
+
+<b><big>Version 1.0.0</big> <small>(27-Aug-2002)</small></b>
+
+<ul>
+  <li>Made Dorgem XP Themes aware
+  <li>It's possible to define the order of the caption and store events.
+  <li>Redefined the class structure of the Events. All events now derive from one base class CDorgemEvent.
+  <li>Store and Caption settings are saved in the registry when their dialogs are closed.
+  <li>Archiving of stored images in an uncompressed AVI file, currently only configurable in the registry.
+  <li>It is no longer possible to add any event without a proper name
+  <li>Made a setup executable with <a href="http://www.innosetup.com/" target="_blank">Inno Setup 3</a>
+  <li>Online version check
+</ul>
+
+<b><big>Version 0.9.5</big> <small>(24-Jan-2002)</small></b>
+
+<ul>
+  <li>Removed the OK button from the store setting dialog and renamed the Cancel button to 'Close'
+  <li>Unlimited caption settings, like the Store Events
+  <li>The star in Store Settings Dialog (indicating an event is enabled) is now properly updated, after an event is changed.
+  <li>Captions can have an absolute position, currently only configurable in the registry.
+  <li>You can specify the tranparant color of a bitmap captions, currently only configurable in the registry.
+  <li>FTP passwords are stored encrypted.
+  <li>Added %p to caption format. It displays AM or PM.
+  <li>Added %h to caption format. It displays hours as 1 till 12.
+</ul>
+
+<b><big>Version 0.9.1</big> <small>(19-Nov-2001, no public release)</small></b>
+
+<ul>
+  <li>Check to be sure a store event name is unique
+  <li>Different overlay types on the bitmap (Transparant and Copy)
+  <li>Minimize to the system tray, currently only configurable in the registry.
+  <li>The spin control of the JPEG compression now works.
+  <li>The preview window now resizes when the size of the preview is changed.
+  <li>Images other than 24-bits color dept can now be handled.
+  <li>Added %P and %V options to the caption format. %P = Program name, %V = Version
+  <li>The font of the overlay text is now properly set
+  <li>ESC doesn't cancel the preview window anymore
+  <li>It is possible to select which language to use in text caption
+</ul>
+
+<b><big>Version 0.9.0</big> <small>(10-Oct-2001)</small></b>
+
+<ul>
+  <li>First public release
+</ul>
+
+</body>
+</html>

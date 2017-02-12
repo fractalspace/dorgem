@@ -1,0 +1,154 @@
+<!doctype html public "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<!-- Sitemap 1.0 -->
+</head>
+<body>
+
+<!-- Don't use the book but folders in the TOC -->
+
+<object type="text/site properties">
+  <param name="ImageType" value="Folder">
+</object>
+
+<ul>
+
+  <li><object type="text/sitemap">
+        <param name="Name" value="Dorgem Help Index">
+        <param name="Local" value="Html/Start.htm">
+      </object>
+  <li><object type="text/sitemap">
+        <param name="Name" value="Introduction">
+        <param name="Local" value="Html/Introduction.htm">
+      </object>
+  <li><object type="text/sitemap">
+        <param name="Name" value="License and Product status">
+        <param name="Local" value="Html/License.htm">
+      </object>
+  <li><object type="text/sitemap">
+        <param name="Name" value="Personal disclaimer">
+        <param name="Local" value="Html/PersonalDisclaimer.htm">
+      </object>
+  <li><object type="text/sitemap">
+        <param name="Name" value="Donate">
+        <param name="Local" value="Html/Donate.htm">
+      </object>
+  <li><object type="text/sitemap">
+        <param name="Name" value="Main Screen">
+        <param name="Local" value="Html/DorgemDlg.htm">
+      </object>
+
+<!-- Caption events tree -->
+
+  <li><object type="text/sitemap">
+        <param name="Name" value="Caption events">
+      </object>
+  <ul>
+    <li><object type="text/sitemap">
+          <param name="Name" value="Bitmap Caption">
+          <param name="Local" value="Html/CaptionBitmap.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="Text Caption">
+          <param name="Local" value="Html/CaptionText.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="Caption Position">
+          <param name="Local" value="Html/CaptionPos.htm">
+        </object>
+  </ul>
+
+<!-- Store events tree -->
+
+  <li><object type="text/sitemap">
+        <param name="Name" value="Store events">
+      </object>
+  <ul>
+    <li><object type="text/sitemap">
+          <param name="Name" value="File Storage">
+          <param name="Local" value="Html/StoreFile.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="FTP Storage">
+          <param name="Local" value="Html/StoreFTP.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="HTTP Storage">
+          <param name="Local" value="Html/StoreHTTP.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="External Program Storage">
+          <param name="Local" value="Html/StoreProgram.htm">
+        </object>
+  </ul>
+
+<!-- Options tree -->
+
+  <li><object type="text/sitemap">
+        <param name="Name" value="Options">
+      </object>
+  <ul>
+    <li><object type="text/sitemap">
+          <param name="Name" value="General">
+          <param name="Local" value="Html/OptionsGeneral.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="AVI">
+          <param name="Local" value="Html/OptionsAVI.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="Web Server">
+          <param name="Local" value="Html/OptionsWebServer.htm">
+        </object>
+  </ul>
+
+<!--  Support tree -->
+
+  <li><object type="text/sitemap">
+        <param name="Name" value="Support">
+      </object>
+  <ul>
+    <li><object type="text/sitemap">
+          <param name="Name" value="Requirements">
+          <param name="Local" value="Html/Requirements.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="Contact Information">
+          <param name="Local" value="Html/Contact.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="Frequently Asked Questions">
+          <param name="Local" value="Html/FAQ.htm">
+        </object>
+  </ul>
+
+<!--  Various items -->
+
+  <li><object type="text/sitemap">
+        <param name="Name" value="Command Line Options">
+        <param name="Local" value="Html/CommandLine.htm">
+      </object>
+  <li><object type="text/sitemap">
+        <param name="Name" value="Multiple Cameras">
+        <param name="Local" value="Html/MultipleCameras.htm">
+      </object>
+  <li><object type="text/sitemap">
+        <param name="Name" value="Version History">
+        <param name="Local" value="Html/VersionHistory.htm">
+      </object>
+  <li><object type="text/sitemap">
+        <param name="Name" value="To Do and Known Bugs">
+        <param name="Local" value="Html/ToDo.htm">
+      </object>
+  <li><object type="text/sitemap">
+        <param name="Name" value="Contributions and acknowledgments">
+        <param name="Local" value="Html/Acknowledgments.htm">
+      </object>
+  <li><object type="text/sitemap">
+        <param name="Name" value="How to help develop Dorgem">
+        <param name="Local" value="Html/HelpDevelop.htm">
+      </object>
+
+</ul>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>File Storage</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+  <param name="Keyword" value="Store settings">
+</object>
+
+<h2>External Program Storage</h2>
+
+An external program can be useful for uploading with a special program like SSH, SCP or SFTP. It can also be useful when you use a script to generate a accompanying web page. The possibilities are unlimited!
+<p>
+<b>Name</b><br>
+The unique name of this storage event. You can only change the name when you create a new item.
+<p>
+<b>Enable</b><br>
+Is this event enabled?
+<p>
+<b>Interval X seconds/minutes/hours</b><br>
+The time interval between between captures.
+<p>
+<b>Command</b><br>
+The command to start. It <i>must</i> contain %s, that will be replaced with the temporary filename of the captured image. It can have the same <a href="Caption.htm">tags</a> as the text captions, so the filename can be date and time related. Remember that a '/' and ':' are invalid characters in a filename, therefore %G and %g are available. The time stamp is constructed when command is executed.
+<p>
+<b>Reset time when not stored</b><br>
+Reset the timer when there has been no storage. This is most likely to happen when there has been no motion detected.
+<p>
+<b>Custom captions</b><br>
+When you want to use custom captions for this store event, you need to check this option and create or adjust the custom captions with the Settings button.
+
+<p>&nbsp;</p>
+
+</body>
+</html>

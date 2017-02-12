@@ -1,0 +1,26 @@
+.topic HIDC_NAME
+The unique name of the caption. You can only change the name when you create a new item.
+
+.topic HIDC_ENABLE
+Is it enabled?
+
+.topic HIDC_BITMAP
+The file that contains the bitmap.
+
+.topic HIDC_BROWSE
+Browse for the file
+
+.topic HIDC_BMP_TYPE
+The type of overlay
+
+.topic HIDC_POSITION
+Specify the position of the bitmap
+
+.topic HIDC_TRANS_SELECT
+Select the color to be used as transparent
+
+.topic HIDOK
+Closes the dialog and saves any changes you have made.
+
+.topic HIDCANCEL
+Closes the dialog without saving any changes you have made.

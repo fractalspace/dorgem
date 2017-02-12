@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JpegLib", "JpegLib\JpegLib.vcproj", "{45F3D699-A14D-4F00-98AA-984C0CF12443}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dorgem", "Dorgem.vcproj", "{397A5576-744E-49A5-B9A0-1E00A66F81E4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{45F3D699-A14D-4F00-98AA-984C0CF12443} = {45F3D699-A14D-4F00-98AA-984C0CF12443}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{45F3D699-A14D-4F00-98AA-984C0CF12443}.Debug.ActiveCfg = Debug|Win32
+		{45F3D699-A14D-4F00-98AA-984C0CF12443}.Debug.Build.0 = Debug|Win32
+		{45F3D699-A14D-4F00-98AA-984C0CF12443}.Release.ActiveCfg = Release|Win32
+		{45F3D699-A14D-4F00-98AA-984C0CF12443}.Release.Build.0 = Release|Win32
+		{397A5576-744E-49A5-B9A0-1E00A66F81E4}.Debug.ActiveCfg = Debug|Win32
+		{397A5576-744E-49A5-B9A0-1E00A66F81E4}.Debug.Build.0 = Debug|Win32
+		{397A5576-744E-49A5-B9A0-1E00A66F81E4}.Release.ActiveCfg = Release|Win32
+		{397A5576-744E-49A5-B9A0-1E00A66F81E4}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

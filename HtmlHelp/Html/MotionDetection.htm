@@ -1,0 +1,29 @@
+<html>
+
+<head>
+<title>Motion Detection</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+  <param name="Keyword" value="Motion Detection">
+</object>
+
+<h2>Motion Detection</h2>
+
+From version 1.1.0 Dorgem has motion detection. The initial implementation is has a known limitation.
+<p>
+The motion is always compared to the previous capture of the camera, even if it is used by another store event. To change this requires too much work at this moment.
+<p>
+When 'Motion Detection' is turned on, an image will only be stored, when there is a difference between the last stored image and the current snapshot.
+<p>
+To use the camera for security set the interval low, so the images can be compared often and use an <a href="OptionsAVI.htm">archive AVI</a>.
+<p>
+Pictures requested by the web server are always servered directly from the camera. Motion detection is bypassed by the web server.
+
+<p>&nbsp;</p>
+
+</body>
+</html>

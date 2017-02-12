@@ -1,0 +1,93 @@
+<!doctype html public "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<!-- Sitemap 1.0 -->
+</head>
+<body>
+<ul>
+
+<!-- Caption settings tree -->
+
+  <li><object type="text/sitemap">
+        <param name="Name" value="Caption settings">
+        <param name="Local" value="Html/CaptionBitmap.htm">
+      </object>
+  <ul>
+    <li><object type="text/sitemap">
+          <param name="Name" value="Bitmap Caption">
+          <param name="Local" value="Html/CaptionBitmap.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="Text Caption">
+          <param name="Local" value="Html/CaptionText.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="Text Caption Tags">
+          <param name="Local" value="Html/Caption.htm">
+        </object>
+  </ul>
+
+<!-- Store settings tree -->
+
+  <li><object type="text/sitemap">
+        <param name="Name" value="Store settings">
+        <param name="Local" value="Html/StoreFile.htm">
+      </object>
+  <ul>
+    <li><object type="text/sitemap">
+          <param name="Name" value="File Storage">
+          <param name="Local" value="Html/StoreFile.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="FTP Storage">
+          <param name="Local" value="Html/StoreFTP.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="HTTP Storage">
+          <param name="Local" value="Html/StoreHTTP.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="External Program Storage">
+          <param name="Local" value="Html/StoreProgram.htm">
+        </object>
+  </ul>
+
+<!--  Options tree -->
+
+  <li><object type="text/sitemap">
+        <param name="Name" value="Options">
+        <param name="Local" value="Html/OptionsGeneral.htm">
+      </object>
+  <ul>
+    <li><object type="text/sitemap">
+          <param name="Name" value="General">
+          <param name="Local" value="Html/OptionsGeneral.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="AVI">
+          <param name="Local" value="Html/OptionsAVI.htm">
+        </object>
+    <li><object type="text/sitemap">
+          <param name="Name" value="Web Server">
+          <param name="Local" value="Html/OptionsWebServer.htm">
+        </object>
+  </ul>
+
+<!-- With special hyperlinks -->
+
+  <li><object type="text/sitemap">
+        <param name="Name" value="Known Bugs">
+        <param name="Local" value="Html/ToDo.htm#bugs">
+      </object>
+  <li><object type="text/sitemap">
+        <param name="Name" value="Warranty">
+        <param name="Local" value="Html/GPL-License.htm#warranty">
+      </object>
+  <li><object type="text/sitemap">
+        <param name="Name" value="Product Status">
+        <param name="Local" value="Html/License.htm#ProductStatus">
+      </object>
+
+</ul>
+</body>
+</html>

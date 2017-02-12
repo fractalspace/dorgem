@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>To Do</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+  <param name="Keyword" value="To Do">
+  <param name="Keyword" value="Known Bugs">
+</object>
+
+<h2>To Do</h2>
+
+These To Do items / Suggestions are in no particulair order
+<p>
+
+General:
+<ul>
+  <li>Fix the known bugs
+  <li>Beside Video for Windows also support DirectShow (DirectX). VfW is giving more and more problems. Some new cameras don't offer VfW support anymore and with multiple cameras there sometimes is only one 'Microsoft WDM Image Capture (Win32)' entry. This is planned for the next major release (version 3.x).
+  <li>Wizard to ease the first startup
+  <li>Make the program multi threading (FTP, Video capturing)
+  <li>Make it possible to localize (translate) the program.
+  <li>Countdown until next capture
+  <li>An option to keep the preview window (or the entire program?) always on top
+  <li>Time limited capturing (e.g. from 08:00 to 19:00)
+</ul>
+
+Store events related:
+<ul>
+  <li>Add an E-mail store event
+  <li>Archiving of stored images in JPEG format (already partly possible with %G and %g)
+  <li>Play a sound when an image is captured/stored
+  <li>Store captured images as PNG
+  <li>Add EXIF-data to the stored image
+  <li>Make it possible to resize the image of a StoreEvent (for thumpnails)
+  <li>Support for plug-ins.
+</ul>
+
+Caption related:
+<ul>
+  <li>Also use (tranparant) GIF, PNG or JPEG as overlay bitmap
+  <li>More effects on the overlay bitmap
+  <li>Multi-line text captions
+  <li>Make the text align of the captions configurable
+  <li>Rotate text captions (already very limited in the code)
+  <li>(Semi transparent) bar in a certain color (new caption type) that can be put under text captions
+  <li>Preview in the caption settings dialog
+  <li>Support for plug-ins.
+</ul>
+
+AVI related:
+<ul>
+  <li>AVI per store event
+  <li>Compression of the AVI
+  <li>New AVI every X hours
+  <li>New AVI when file gets bigger than X megabytes
+</ul>
+
+Motion detection related:
+<ul>
+  <li>Motion detection per store event
+  <li>Exclude certain part of the image (like a clock) by using a mask
+</ul>
+
+Web server related:
+<ul>
+  <li>Support for streaming video (and use <a href="http://www.charliemouse.com/code/cambozola/" target="_blank">Cambozola</a> as client)
+  <li>Handle the 'turn camera off, but web server stays on' situation
+  <li>Handle the 'web server off-line, but want to view an (still) image' situation
+  <li>Let the tray icon show when the web server is active
+  <li>Play a sound when the server has been hit
+  <li>Tells how many users are watching by collecting the number of different IPs over a given period.
+</ul>
+
+<a name="bugs"><h2>Known Issues</h2>
+
+<ul>
+  <li>I've tried to use Dorgem with <a href="http://www.firedaemon.com/" target="_blank">FireDaemon</a>, but I couldn't get it to work. I'm not sure, but it seems that the VfW is not compatible with services. Maybe it is required to switch to DirectShow (DirectX) for this.
+</ul>
+
+<p>&nbsp;</p>
+
+</body>
+</html>
